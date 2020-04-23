@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reservationroom", "reservationroom\reservationroom.vcxproj", "{29D3F832-E492-4660-AB51-7DB7FA277467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Debug|x64.ActiveCfg = Debug|x64
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Debug|x64.Build.0 = Debug|x64
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Debug|x86.ActiveCfg = Debug|Win32
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Debug|x86.Build.0 = Debug|Win32
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Release|x64.ActiveCfg = Release|x64
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Release|x64.Build.0 = Release|x64
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Release|x86.ActiveCfg = Release|Win32
+		{29D3F832-E492-4660-AB51-7DB7FA277467}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684ED0D4-7105-410C-BBCF-2CE364128E1B}
+	EndGlobalSection
+EndGlobal
