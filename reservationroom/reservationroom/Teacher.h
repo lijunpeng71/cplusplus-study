@@ -16,6 +16,9 @@ public:
 	//有参构造函数
 	Teacher(int empId, string username, string password);
 
+	//登录
+	virtual void login();
+
 	//菜单界面
 	virtual void operMenu();
 

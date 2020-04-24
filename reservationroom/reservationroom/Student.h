@@ -12,6 +12,9 @@ public:
 	Student();	//默认构造
 	Student(int id, string username, string password);	//有参构造
 
+	//登录
+	virtual void login();
+
 	//菜单界面
 	virtual void operMenu();
 

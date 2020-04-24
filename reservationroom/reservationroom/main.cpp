@@ -1,4 +1,8 @@
 #include <iostream>
+#include <fstream>
+#include "Student.h"
+#include "Teacher.h"
+#include "Manager.h"
 using namespace std;
 
 int main()
@@ -22,16 +26,23 @@ int main()
 		cout << "\t\t -------------------------------------------------------\n";
 		cout << "请输入您的选择：";
 		cin >> select;
-
+		//父类指针
+		Identity *identity = nullptr;
 		switch (select)
 		{
 		case 1:			//学生
+			identity = new Student();
 			break;
 		case 2:			//老师
+			identity = new Teacher();
 			break;
 		case 3:			//管理员
+			identity = new Manager();
 			break;
 		case 0:			//退出
+			cout << "欢迎下一次使用" << endl;
+			system("pause");
+			return 0;
 			break;
 		default:
 			cout << "输入有误，请重新选择" << endl;
@@ -39,6 +50,7 @@ int main()
 			system("cls");
 			break;
 		}
+		identity->login();
 	}
 	system("pause");
 	system("cls");
